@@ -1,4 +1,4 @@
-# Banner
+# Banner Component
 
 This banner was created for Tumelo using `create-react-app`.
 
