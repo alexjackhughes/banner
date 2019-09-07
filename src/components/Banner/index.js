@@ -1,4 +1,5 @@
 import React from "react";
+import { Animate } from "react-simple-animate";
 
 import star from "../../assets/images/star.svg";
 import pipe from "../../assets/images/pipe.svg";
@@ -10,8 +11,16 @@ import Buttons from "./Buttons";
 import { BannerContainer, BannerContent, Icon, DesktopOnlyIcon } from "./style";
 
 function Banner({ visible, changeBanner }) {
-  if (visible) {
-    return (
+  return (
+    <Animate
+      play={!visible}
+      duration={0.3}
+      delay={0.1}
+      start={{
+        transform: "translateY(0px)"
+      }}
+      end={{ transform: "translateY(-200px)" }}
+    >
       <BannerContainer>
         <BannerContent>
           <Icon src={star} alt="star icon" />
@@ -21,9 +30,8 @@ function Banner({ visible, changeBanner }) {
           <Buttons changeBanner={changeBanner} />
         </BannerContent>
       </BannerContainer>
-    );
-  }
-  return null;
+    </Animate>
+  );
 }
 
 export default Banner;
