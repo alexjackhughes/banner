@@ -7,7 +7,6 @@ function Banner({ visible, changeBanner }) {
   if (visible) {
     return (
       <div className="banner">
-        <div className="edge" />
         <div className="main">
           <div className="banner-content">
             <img src={star} className="icon-star" alt="star-icon" />
@@ -28,7 +27,6 @@ function Banner({ visible, changeBanner }) {
             </span>
           </div>
         </div>
-        <div className="edge" />
       </div>
     );
   }

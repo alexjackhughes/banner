@@ -2,6 +2,7 @@ import React from "react";
 
 import Navigation from "../Navigation";
 import Banner from "../Banner";
+import List from "../List";
 
 function App() {
   const [bannerVisible, changeBanner] = React.useState(true);
@@ -20,6 +21,7 @@ function App() {
           changeBanner(!bannerVisible);
         }}
       />
+      <List />
     </div>
   );
 }

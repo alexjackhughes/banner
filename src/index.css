@@ -34,6 +34,8 @@ body {
   flex-grow: 1;
   display: inline-flex;
   justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .banner-content {
@@ -96,5 +98,9 @@ button {
 
   .icon-pipe {
     display: none;
+  }
+
+  .button-group {
+    align-items: flex-end;
   }
 }
