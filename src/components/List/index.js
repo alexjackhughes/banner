@@ -1,34 +1,23 @@
 import React from "react";
-import styled from "styled-components";
 
-import logo from "../../assets/images/tumelo.svg";
+import { Container, ListItem } from "./style";
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 3vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-`;
-
-const ListItem = styled.div`
-  background-color: #eeeeee;
-  text-align: center;
-
-  margin: 1em;
-  padding: 2em;
-`;
-
-const getItems = () => {
+// Generates an array of styled divs
+const generateListItems = () => {
   const elements = [];
+
   for (let i = 0; i < 10; i++) {
     elements.push(<ListItem key={i} />);
   }
   return elements;
 };
 
+/**
+ * Renders a list of divs, so that the banner
+ * is positioned against some fake data.
+ */
 const List = () => {
-  const items = getItems();
+  const items = generateListItems();
 
   return (
     <Container>
