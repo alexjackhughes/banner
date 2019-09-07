@@ -4,7 +4,7 @@ import Navigation from "../Navigation";
 import Banner from "../Banner";
 
 function App() {
-  const [bannerVisible, changeBanner] = React.useState(false);
+  const [bannerVisible, changeBanner] = React.useState(true);
 
   return (
     <div className="App">

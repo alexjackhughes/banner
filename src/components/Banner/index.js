@@ -1,11 +1,10 @@
 import React from "react";
 
 import star from "../../assets/images/star.svg";
-
 import pipe from "../../assets/images/pipe.svg";
 
 function Banner({ visible, changeBanner }) {
-  if (!visible) {
+  if (visible) {
     return (
       <div className="banner">
         <div className="edge" />
