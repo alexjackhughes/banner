@@ -16,7 +16,7 @@ I wanted to match my design as closely as possible to the brief so you get a goo
 
 ## Getting Started
 
-In the project directory, once you've installed all dependencies with `npm install`, you can run:
+In the project directory, once you've installed all dependencies with `yarn install`, you can run:
 
 ### `yarn start`
 
