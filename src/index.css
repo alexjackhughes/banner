@@ -2,100 +2,17 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 11pt;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.banner {
-  display: flex;
-  color: white;
-  background-color: #3a3c62;
-  border-radius: 0 0 1em 1em;
-}
-
-.icon-star {
-  height: 3em;
-  width: auto;
-  align-self: center;
-}
-
-.icon-pipe {
-  height: 3rem;
-  width: 10px;
-  align-self: center;
-}
-
-.main {
-  flex-grow: 1;
-  display: inline-flex;
-  justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.banner-content {
-  flex-grow: 1;
-  display: inline-flex;
-  justify-content: center;
-  align-items: baseline;
-  margin: 1em;
-}
-
-.item {
-  margin: 1em;
+.title {
+  font-size: 1.4em;
+  text-align: right;
 }
 
 .bold {
   font-weight: 800;
   font-family: "Montserrat-Bold", sans-serif;
-}
-
-.title {
-  font-size: 1.2em;
-  text-align: right;
-}
-
-.button-group {
-  flex-basis: 100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-button {
-  all: unset;
-  cursor: pointer;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.title-section {
-  flex-basis: 60%;
-}
-
-.big {
-  flex-basis: 100%;
-}
-
-/* Mobile only styling */
-@media all and (min-width: 0px) and (max-width: 845px) {
-  .title-section {
-    text-align: left;
-  }
-
-  .banner-content {
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-  }
-
-  .icon-pipe {
-    display: none;
-  }
-
-  .button-group {
-    align-items: flex-end;
-  }
 }

@@ -4,7 +4,15 @@ This banner was created for Tumelo using `create-react-app`.
 
 ![Tumelo screenshot](./src/assets/images/tumelo-screenshot.png)
 
-I've used `create-react-app` as the framework so that the component is easy for you guys to run locally, but obviously you could just copy this component into whatever React framework you are using like Gatsby etc.
+As this is a technical test, I've kept the CSS strictly to `styled-components` and raw `flexbox` rather than any CSS framework, so that you can hopefully see I understand the underpinning technologies we talked about in the interview.
+
+## How To Improve
+
+I wanted to match my design as closely as possible to the brief so you get a good idea of my technical skill, but if this was real life there would be a few improvements I'd suggest - so I thought I'd jot them down here:
+
+- **More Emphasis on CTA:** I'd change the "I want to help" button into an actual button, to differentiate it from the other "Dismiss" button, and help guide the user to what we want them to do. For the same reason, I might change the Dismiss to a light grey to entice the user not to click "Dismiss".
+
+- **Include Question & an input box:** If there really was only one question, I'd think about designing the notification in such a way that it actually _asks_ the question and allows the user to submit feedback within the notification. That way you cut out a stage in the user journey.
 
 ## Getting Started
 
