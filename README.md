@@ -8,7 +8,7 @@ I've used `create-react-app` as the framework, so that the component is easy for
 
 In the project directory, once you've installed all dependencies with `npm install`, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.
 
