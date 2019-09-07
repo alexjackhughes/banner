@@ -2,6 +2,8 @@
 
 This banner was created for Tumelo using `create-react-app`.
 
+![Tumelo screenshot](./src/assets/images/tumelo-screenshot.png)
+
 I've used `create-react-app` as the framework, so that the component is easy for you to run locally, but obviously you could just copy and paste this component into whatever React framework you are using.
 
 ## Getting Started
